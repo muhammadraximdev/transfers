@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="nav">
+  <h2>– TOP-50 CLUBS BY EXPENDITURE –</h2>
+  <table class="content-nav">
+    <thead>
+      <tr>
+        <td>#</td>
+        <td>club</td>
+        <td>country</td>
+        <td>expenditures, mill. euro</td>
+      </tr>
+    </thead>
+  </table>
+</div>
+
+<div class="latest-transfers">
+  <table class="top-players" style="margin-top: 80px">
+    {% for club in clubs %}
+    <tr>
+      <td style="width: 150px !important;">{{ forloop.counter }}</td>
+      <td style="width: 250px !important;">{{ club.name }}</td>
+      <td>
+        {% if club.country %}
+          {{ club.country.name }}
+        {% else %}
+          -
+        {% endif %}
+      </td>
+
+      <td>{{ club.total_expenditure }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+      <td colspan="5" style="text-align: center; padding: 20px;">
+        No clubs found.
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <hr>
+  <p>
+    This table shows the top 50 clubs by total transfer expenditure.
+  </p>
+</div>
+{% endblock %}

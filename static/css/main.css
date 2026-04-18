@@ -11,7 +11,7 @@
 }
 .container .navbar {
   width: 100%;
-  background-color: blue;
+  background-color: #2563eb;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -76,7 +76,7 @@
   text-decoration: none;
   width: 380px;
   height: 140px;
-  background-color: blue;
+  background-color: #2563eb;
   border-radius: 6px;
   font-size: 40px;
   display: flex;
@@ -110,14 +110,14 @@
 .country-clubs h2:hover {
   border-radius: 5px;
   padding-left: 10px;
-  background-color: blue;
+  background-color: #2563eb;
 }
 .country-clubs h2:hover a {
   color: white;
 }
 .country-clubs #title {
   font-size: 30px;
-  background-color: blue;
+  background-color: #2563eb;
   color: white;
   text-align: center;
   line-height: 40px;
@@ -148,7 +148,7 @@
 .country-clubs .country h3:hover {
   border-radius: 5px;
   padding-left: 10px;
-  background-color: blue;
+  background-color: #2563eb;
 }
 .country-clubs .country h3:hover a {
   color: white;
@@ -161,7 +161,7 @@
 }
 .clubs-info h2 {
   text-align: center;
-  color: blue;
+  color: #2563eb;
   margin: 10px;
 }
 
@@ -205,7 +205,7 @@
 }
 .nav h2 {
   text-align: center;
-  color: blue;
+  color: #2563eb;
   line-height: 50px;
   padding-top: 30px;
   font-size: 22px;
@@ -333,7 +333,7 @@
 }
 .content-nav tr td {
   width: 140px;
-  color: blue;
+  color: #2563eb;
   text-align: center;
 }
 .content-nav tr td:nth-child(1) {
@@ -353,30 +353,30 @@
 }
 .clubs .club {
   width: 170px;
-  border-top: 2px solid blue;
-  border-bottom: 2px solid blue;
+  border-top: 2px solid #2563eb;
+  border-bottom: 2px solid #2563eb;
   transition: all 0.2s ease-in-out;
   /* margin-right: 10% !important; */
 }
 .clubs .club:hover {
   border: none;
   border-radius: 5px;
-  border-top: 2px solid blue;
-  border-bottom: 2px solid blue;
-  border-left: 4px solid blue;
+  border-top: 2px solid #2563eb;
+  border-bottom: 2px solid #2563eb;
+  border-left: 4px solid #2563eb;
 }
 .clubs .club a {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: rgb(58, 74, 219);
-  font-style: 8px;
+  font-size: 8px;
   font-weight: 550 !important;
   letter-spacing: 1px;
   word-spacing: 4px;
 }
 .clubs .club a:hover {
-  color: blue !important;
+  color: #2563eb !important;
 }
 .clubs .club a img {
   width: 55px;
@@ -417,7 +417,7 @@
 
 .footer {
   width: 100%;
-  background-color: blue;
+  background-color: #2563eb;
   height: 80px;
   display: flex;
   align-items: center;
@@ -533,7 +533,7 @@
   }
   .country-menu h3 a:hover,
   .navbar-menu h3 a:hover {
-    background-color: blue;
+    background-color: #2563eb;
   }
 
   .navbar-menu {
@@ -557,7 +557,7 @@
   }
 
   .navbar-menu.active {
-    background-color: blue;
+    background-color: #2563eb;
     right: 0px;
   }
 
@@ -588,7 +588,7 @@
   }
   .content-nav tr td {
     width: 15%;
-    color: blue;
+    color: #2563eb;
     text-align: center;
     font-size: 11px;
   }
